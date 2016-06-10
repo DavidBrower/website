@@ -2,7 +2,7 @@
 content-type: markdown
 ---
 
-You can control and influence the flow of the build script execution by providing criteria. This is a predicate that has to be fulfilled for the task to execute. The criteria does not affect however succeeding task will be executed.
+You can control and influence the flow of the build script execution by providing criteria. This is a predicate that has to be fulfilled for the task to execute. The criteria does not affect how the succeeding task will be executed.
 
 ```csharp
 Task("A")
